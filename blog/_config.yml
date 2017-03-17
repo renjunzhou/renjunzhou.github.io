@@ -19,31 +19,32 @@ title: The path of Computer Science
 tagline:          '计算机科学之路'
 email: junzhou.ren.auditeur@lecnam.net
 description: Tech. Blog of CS & Development
-#baseurl: "./blog" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://renjunzhou.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: DackRen
 github_username:  DackRen
 
-permalink: /blog/:year/:month/:day/:title/
+#permalink: /blog/:year/:month/:day/:title/
 
-paginate:         20
+paginate:         5
+permalink:        pretty
 
-#permalink:        pretty
 # Build settings
-#markdown:         redcarpet
+# markdown version
 markdown: kramdown
 theme: minima
-highlighter:         true
+highlighter: rouge
 
 gems:
   - jekyll-feed
   - jekyll-paginate
+#exclude is used to ignore files for jekyll
 exclude:
   - Gemfile
   - Gemfile.lock
+  - README.md
 
-  # Custom vars
-  # version:          2.0.0
-  #
-  # github:
-  #   repo:           https://github.com/poole/lanyon
+# Custom vars
+version: 2.0.0
+github: https://github.com/dackren
+repo: DackRen.github.io
