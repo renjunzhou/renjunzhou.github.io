@@ -19,15 +19,14 @@ title: The path of Computer Science
 tagline:          '计算机科学之路'
 email: junzhou.ren.auditeur@lecnam.net
 description: Tech. Blog of CS & Development
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+#baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://renjunzhou.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: DackRen
 github_username:  DackRen
 
-#permalink: /blog/:year/:month/:day/:title/
+permalink: /blog/:year/:month/:day/:title/
 
-paginate:         5
-permalink:        pretty
+paginate:         20
 
 # Build settings
 # markdown version
