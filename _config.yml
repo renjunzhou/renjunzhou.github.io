@@ -17,23 +17,24 @@
 
 title: The path of Computer Science
 tagline:          '计算机科学之路'
-email: your-email@domain.com
-description: Computer Science,Development,Tech. Blog
+email: junzhou.ren.auditeur@lecnam.net
+description: Tech. Blog of CS & Development
 #baseurl: "./blog" # the subpath of your site, e.g. /blog
 url: "https://renjunzhou.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+twitter_username: DackRen
 github_username:  DackRen
 
 permalink: /blog/:year/:month/:day/:title/
 
-paginate:         5
+paginate:         20
 
 #permalink:        pretty
 # Build settings
 #markdown:         redcarpet
-highlighter:         true
 markdown: kramdown
 theme: minima
+highlighter:         true
+
 gems:
   - jekyll-feed
   - jekyll-paginate
