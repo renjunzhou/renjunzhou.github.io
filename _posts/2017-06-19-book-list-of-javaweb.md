@@ -2,6 +2,38 @@
 layout: post
 title: Book List of JAVA Web
 ---
+# new update
+程序员经验 从小工到专家
+编码经验 代码大全
+
+基础 程序员面试宝典(软件设计师第四版)
+
+语言 语法 java核心技术
+  经验 java编程思想
+  进阶 effective java
+  大师 jvm内核 调优
+
+开发
+项目级
+  版本控制 git
+  构建管理maven
+  测试 junit mockito
+  反馈 Jenkins&Sonar
+
+代码级
+  框架
+
+Backend
+TCP
+缓存，nosql
+分布式
+
+设计
+Ood
+Design patterns
+Ddd
+
+---------------
 # 0. Language
 - //0.1 Think in Java 微过时？
 - //0.2 Effective Java 过誉？
