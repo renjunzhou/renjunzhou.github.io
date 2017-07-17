@@ -286,7 +286,7 @@ Jxls 区域标记用来定义 要由Jxls引擎处理的根XlsArea(s) . XlsComme
 ```
 jx:area(lastCell="<LAST_CELL>")
 ```
-这里<LAST_CELL> 定义了矩形区域最右下角的单元格. 而其实单元格被定义为 Excel 评注所在的位置.    
+这里```<LAST_CELL>``` 定义了矩形区域最右下角的单元格. 而其实单元格被定义为 Excel 评注所在的位置.    
 所以假设我们在A1 单元格中有下列comment jx:area(lastCell="G12") ,根区域就是 A1:G12.    
 XlsCommentAreaBuilder 被用来从模板文件中读取所有区域. 如下面代码 片段将读取所有区域到xlsAreaList中并存储第一个区域到 xlsArea 变量中
 ```java
@@ -301,7 +301,7 @@ Commands 应该被定义在一个XlsArea中. XlsCommentAreaBuilder 接受下�
 ```
 jx:<command_name>(attr1='val1' attr2='val2' ... attrN='valN' lastCell=<last_cell> areas=["<command_area1>", "<command_area2", ... "<command_areaN>"])
 ```
-<command_name> 是一个内置或手工注册在XlsCommentAreaBuilder中的command 的名字. 目前有如下内置command
+```<command_name>``` 是一个内置或手工注册在XlsCommentAreaBuilder中的command 的名字. 目前有如下内置command
 - each
 - if
 - image
