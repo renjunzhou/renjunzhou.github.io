@@ -34,23 +34,23 @@ title: JAVA Excel API 详解
 ### Getting Started
 #### 1. Adding Maven dependency
 - core Jxls module    
-```Maven
+```
 <dependency>
 	<groupId>org.jxls</groupId>
 	<artifactId>jxls</artifactId>  
 	<version>2.4.0</version>
 </dependency>
 ```
-- To use Apache POI API based transformer implementation add the following dependency
-```Maven
+- To use Apache POI API based transformer implementation add the following dependency    
+```
 <dependency>
 	<groupId>org.jxls</groupId>
 	<artifactId>jxls-poi</artifactId>
 	<version>1.0.12</version>
 </dependency>
 ```
-- To use Java Excel API based transformer implementation add the following dependency
-```Maven
+- To use Java Excel API based transformer implementation add the following dependency    
+```
 <dependency>
 	<groupId>org.jxls</groupId>
 	<artifactId>jxls-jexcel</artifactId>
