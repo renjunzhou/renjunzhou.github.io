@@ -33,7 +33,7 @@ title: JAVA Excel API 详解
 ## [JXLS]( http://jxls.sourceforge.net/samples/simple_exporter.html)
 ### Getting Started
 #### 1. Adding Maven dependency
-- core Jxls module  
+##### core Jxls module  
 ```
 <dependency>
 	<groupId>org.jxls</groupId>
@@ -41,7 +41,7 @@ title: JAVA Excel API 详解
 	<version>2.4.0</version>
 </dependency>
 ```
-- To use Apache POI API based transformer implementation add the following dependency    
+##### To use Apache POI API based transformer implementation add the following dependency    
 ```
 <dependency>
 	<groupId>org.jxls</groupId>
@@ -49,7 +49,7 @@ title: JAVA Excel API 详解
 	<version>1.0.12</version>
 </dependency>
 ```
-- To use Java Excel API based transformer implementation add the following dependency    
+##### To use Java Excel API based transformer implementation add the following dependency    
 ```
 <dependency>
 	<groupId>org.jxls</groupId>
