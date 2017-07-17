@@ -33,7 +33,7 @@ title: JAVA Excel API 详解
 ## [JXLS]( http://jxls.sourceforge.net/samples/simple_exporter.html)
 ### Getting Started
 #### 1. Adding Maven dependency
-- core Jxls module    
+- core Jxls module  
 ```
 <dependency>
 	<groupId>org.jxls</groupId>
@@ -57,6 +57,7 @@ title: JAVA Excel API 详解
 	<version>1.0.6</version>
 </dependency>
 ```
+
 #### 2. Editing pure POJO Entity
 ```Java
   public class Employee {
