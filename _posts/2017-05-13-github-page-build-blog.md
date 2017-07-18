@@ -56,21 +56,23 @@ Set up your custom domain with your DNS provider. Our guides outline how to set 
 
 # 5. Install Jekyll
 [Jekyll DOC]https://jekyllrb.com/docs/quickstart/
-# 5.1 Install Ruby
-# 5.2 Install Jekyll
-  # Install Jekyll and Bundler gems through RubyGems
-  ~ $ gem install jekyll bundler
-  # Create a new Jekyll site at ./myblog
-  ~ $ jekyll new myblog
-  # Change into your new directory
+## 5.1 Install Ruby
+## 5.2 Install Jekyll
+  ### Install Jekyll and Bundler gems through RubyGems
+  ```~ $ gem install jekyll bundler```
+  ### Create a new Jekyll site at ./myblog
+  ```~ $ jekyll new myblog```
+  ### Change into your new directory
+  ```
   ~ $ cd myblog
-  # Build the site on the preview server
+  ### Build the site on the preview server
   ~/myblog $ bundle exec jekyll serve
-  # Now browse to http://localhost:4000
-# 5.3 Another way
+  ```
+  ### Now browse to http://localhost:4000
+## 5.3 Another way
 sudo gem install github-pages，安装 Jekyll
 之后你需要在 master 下新建一个 file，命名为 Gemfile，输入
-
+```
 source 'https://rubygems.org'
 gem 'github-pages'
 
@@ -78,5 +80,5 @@ gem 'github-pages'
 之后运行
 
 bundle exec jekyll serve
-    
+
 下面，就可以使用 Jekyll 啦，本地测试在浏览器输入 http://localhost:4000 即可(本地测试结束后 commit to master 提交线上即可)

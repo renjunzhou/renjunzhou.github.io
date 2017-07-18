@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JAVA Excel API 详解
+title: JAVA Excel 接口详解
 ---
 # 简介
 ## 背景
