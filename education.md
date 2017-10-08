@@ -4,6 +4,7 @@ title: Education
 ---
 # Technologies informatiques et de l'information, D.E 2017 - Present
 ## Institut Français des Affaires Appliqués
+- ...
 
 # Software architecture and System integration, M.E 2016 - 2017
 ## Conservatoire National des Arts et Métiers
